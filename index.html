@@ -1,1 +1,612 @@
-test page
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>Slot Pulsa Online</title>
+  <meta content="Agen Pulsa Website Slot Deposit Pulsa Tanpa Potongan, Game Pulsa Slot Online dan Agen Slot Online Bonus 100% untuk member baru via Telkomsel, XL, OVO, DANA dan GOpay" name="description">
+  <meta content="Slot Deposit Pulsa,Game Slot Online,Slot Tanpa Potongan,Agen Slot Online" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link href="assets/vendor/animate.css/animate.min.css" rel="stylesheet">
+  <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
+  <link href="assets/vendor/line-awesome/css/line-awesome.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+
+  <script>
+  function loadDoc() {
+              var xhttp = new XMLHttpRequest();
+              xhttp.onreadystatechange = function() {
+                  if (this.readyState == 4 && this.status == 200) {
+
+                      // gets the entire html file of the folder 'logpost' in this case and labels it thing
+                      thing = this.responseText
+                      searchFor = /.html</g
+                      a=0;
+                      b=0;
+                      var str = "";
+
+                      // greps file for .html and then backs up leter by letter till you hot the file name and all
+                      while ((dothtmls = searchFor.exec(thing)) != null ){
+
+                          str = "";
+                          console.log(dothtmls.index);
+
+                          a = dothtmls.index;
+
+                          while (thing[a]  != '>' ){
+                              a--;
+                          }
+                          a++;
+                          while(thing[a] != '<'){
+                              str = str + thing[a];
+                              a++;
+                          }
+                          var judul = str.replace('.html','');
+                          var judul2 = judul.replace('-',' ');
+                          document.getElementById("test").innerHTML +=
+                            '<div class="card">'
+                              +'<img class="card-img-top" src="assets/img/portfolio/portfolio-'+(Math.floor(Math.random() * 9) + 1)+'.jpg" alt="Slot Deposit Pulsa">'
+                              +'<div class="card-body">'
+                                +'<a href=pages/'+str+'><h5 class="card-title">'+judul2+'</h5></a>'
+                              +'</div>'
+                            +'</div>';
+                      }
+                  }
+              };
+              xhttp.open("GET", "pages/", true);
+              xhttp.send();
+              }
+  window.onload = loadDoc;
+  </script>
+
+  <!-- =======================================================
+  * Template Name: Selecao - v2.3.1
+  * Template URL: https://bootstrapmade.com/selecao-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top d-flex align-items-center  header-transparent ">
+    <div class="container d-flex align-items-center">
+
+      <div class="logo mr-auto">
+        <!-- <h1 class="text-light"><a href="index.html">Slot Deposit Pulsa</a></h1> -->
+        <!-- Uncomment below if you prefer to use an image logo -->
+        <a href="index.html"><img src="assets/img/logo-pulsa.png" alt="slot deposit pulsa" class="img-fluid"></a>
+      </div>
+
+      <nav class="nav-menu d-none d-lg-block">
+        <ul>
+          <li class="active"><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#services">Services</a></li>
+          <li><a href="#portfolio">Portfolio</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+        </ul>
+      </nav><!-- .nav-menu -->
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero" class="d-flex flex-column justify-content-end align-items-center">
+    <div id="heroCarousel" class="container carousel carousel-fade" data-ride="carousel">
+
+      <!-- Slide 1 -->
+      <div class="carousel-item active">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Selamat datang di <span>Slot Deposit Pulsa</span></h2>
+          <p class="animate__animated fanimate__adeInUp">Mengisi pulsa dengan nominal kecil hingga besar bisa dilakukan dalam satu kali akses di aplikasi mendukung pembayaran Transfer bank, Ovo, Gopay dan Dana.</p>
+          <img src="assets/img/cms-package.png" alt="slot deposit pulsa"/>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+        </div>
+      </div>
+
+      <!-- Slide 2 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Bonus deposit customer baru</h2>
+          <p class="animate__animated animate__fadeInUp">Setiap kali kamu mengisi pulsa dengan aplikasi slot deposit pulsa kamu akan mendapatkan bonus pulsa hingga 50%.</p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+        </div>
+      </div>
+
+      <!-- Slide 3 -->
+      <div class="carousel-item">
+        <div class="carousel-container">
+          <h2 class="animate__animated animate__fadeInDown">Kami menyediakan deposit Telkomsel dan XL</h2>
+          <p class="animate__animated animate__fadeInUp">Ingin mengisi pulsa dan bermain game slot deposit pulsa tanpa potongan kita menyediakan banyak game games slot terbaik</p>
+          <a href="#about" class="btn-get-started animate__animated animate__fadeInUp scrollto">Read More</a>
+        </div>
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon bx bx-chevron-left" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-slide="next">
+        <span class="carousel-control-next-icon bx bx-chevron-right" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+
+    </div>
+
+    <svg class="hero-waves" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 24 150 28 " preserveAspectRatio="none">
+      <defs>
+        <path id="wave-path" d="M-160 44c30 0 58-18 88-18s 58 18 88 18 58-18 88-18 58 18 88 18 v44h-352z">
+      </defs>
+      <g class="wave1">
+        <use xlink:href="#wave-path" x="50" y="3" fill="rgba(255,255,255, .1)">
+      </g>
+      <g class="wave2">
+        <use xlink:href="#wave-path" x="50" y="0" fill="rgba(255,255,255, .2)">
+      </g>
+      <g class="wave3">
+        <use xlink:href="#wave-path" x="50" y="9" fill="#fff">
+      </g>
+    </svg>
+
+  </section><!-- End Hero -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>About</h2>
+          <p>Who we are</p>
+        </div>
+
+        <div class="row content" data-aos="fade-up">
+          <div class="col-lg-6">
+            <img src="assets/img/provider.png" alt="slot deposit pulsa"/>
+            <p>
+              Kami adalah agen slot pulsa terpecaya yang bisa menerima semua pembayaran digital Ovo, Gopay dan Dana
+            </p>
+            <ul>
+              <li><i class="ri-check-double-line"></i> Dapat melakukan transaksi 24 jam nonstop.</li>
+              <li><i class="ri-check-double-line"></i> Bonus untuk pertama kali mendaftar.</li>
+              <li><i class="ri-check-double-line"></i> Tanpa potongan administrasi.</li>
+            </ul>
+          </div>
+          <div class="col-lg-6 pt-4 pt-lg-0">
+            <p>
+              Dapatkan penghasilan tambahan dengan menjadi agen slot deposit Pulsa Prabayar & Pascabayar dengan harga murah dan lengkap untuk all operator yang terpercaya.
+              Kami menyediakan layanan jual beli pulsa seluler elektrik secara online dengan harga yang relatif murah dan bersaing, mulai dari Telkomsel, XL, Axis, Indosat Ooredoo, TRI, dan Smartfren yang terdiri dari berbagai nominal mulai dari denom kecil hingga denom besar.
+            </p>
+            <a href="#" class="btn-learn-more">Learn More</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= Pricing Section ======= -->
+    <section id="pricing" class="pricing">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Pricing</h2>
+          <p>Our Competing Prices</p>
+        </div>
+
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6">
+            <div class="box" data-aos="zoom-in">
+              <h3>Pelajar</h3>
+              <h4><sup>$</sup>5<span> / month</span></h4>
+              <ul>
+                <li>Gratis Adminstrasi</li>
+                <li>Bonus Harian</li>
+                <li>Deposit Digital (Ovo, Dana dan Gopay)</li>
+                <li class="na">Bonus slot deposit pulsa 50%</li>
+                <li class="na">Bonus rolingan slot 20%</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://api.whatsapp.com/send?phone=6282122214787" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-md-0">
+            <div class="box featured" data-aos="zoom-in" data-aos-delay="100">
+              <h3>Bisnis</h3>
+              <h4><sup>$</sup>19<span> / month</span></h4>
+              <ul>
+                <li>Gratis Adminstrasi</li>
+                <li>Bonus Harian</li>
+                <li>Deposit Digital (Ovo, Dana dan Gopay)</li>
+                <li>Bonus slot deposit pulsa 50%</li>
+                <li class="na">Bonus rolingan slot 20%</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://api.whatsapp.com/send?phone=6282122214787" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="200">
+              <h3>Developer</h3>
+              <h4><sup>$</sup>29<span> / month</span></h4>
+              <ul>
+                <li>Gratis Adminstrasi</li>
+                <li>Bonus Harian</li>
+                <li>Deposit Digital (Ovo, Dana dan Gopay)</li>
+                <li>Bonus slot deposit pulsa 50%</li>
+                <li>Bonus rolingan slot 20%</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://api.whatsapp.com/send?phone=6282122214787" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-6 mt-4 mt-lg-0">
+            <div class="box" data-aos="zoom-in" data-aos-delay="300">
+              <span class="advanced">Advanced</span>
+              <h3>Ultimate</h3>
+              <h4><sup>$</sup>49<span> / month</span></h4>
+              <ul>
+                <li>Gratis Adminstrasi</li>
+                <li>Bonus Harian</li>
+                <li>Deposit Digital (Ovo, Dana dan Gopay)</li>
+                <li>Bonus slot deposit pulsa 50%</li>
+                <li>Bonus rolingan slot 20%</li>
+                <li>Bonus cashback 10%</li>
+              </ul>
+              <div class="btn-wrap">
+                <a href="https://api.whatsapp.com/send?phone=6282122214787" class="btn-buy">Buy Now</a>
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Pricing Section -->
+
+
+    <!-- ======= Features Section ======= -->
+    <section id="features" class="features">
+      <div class="container">
+
+        <ul class="nav nav-tabs row d-flex">
+          <li class="nav-item col-3" data-aos="zoom-in">
+            <a class="nav-link active show" data-toggle="tab" href="#tab-1">
+              <i class="ri-gps-line"></i>
+              <h4 class="d-none d-lg-block">Tips untuk Deposit Pulsa Online</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="100">
+            <a class="nav-link" data-toggle="tab" href="#tab-2">
+              <i class="ri-body-scan-line"></i>
+              <h4 class="d-none d-lg-block">Customer Service Online 24 Jam Non-stop</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="200">
+            <a class="nav-link" data-toggle="tab" href="#tab-3">
+              <i class="ri-sun-line"></i>
+              <h4 class="d-none d-lg-block">Berbagai Bonus Yang menarik dan Menggiurkan</h4>
+            </a>
+          </li>
+          <li class="nav-item col-3" data-aos="zoom-in" data-aos-delay="300">
+            <a class="nav-link" data-toggle="tab" href="#tab-4">
+              <i class="ri-store-line"></i>
+              <h4 class="d-none d-lg-block">Deposit Yang Mudah dan Instant</h4>
+            </a>
+          </li>
+        </ul>
+
+        <div class="tab-content" data-aos="fade-up">
+          <div class="tab-pane active show" id="tab-1">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Beli di Situs Web yang Di Kenal dan Terkenal.</h3>
+                <p class="font-italic">
+                  Mencari di Slot Deposit Pulsa salah satunya adalah indo787 untuk mendapatkan penawaran terbaik dapat membawa Anda ke hal yang tidak dikenal dan tidak dapat diandalkan. Jauhi mereka. Periksa apakah URL situs web sesuai dengan yang Anda pikirkan , dan alamatnya dimulai dengan https. Berbelanja di situs web tepercaya dan bereputasi dapat menghindari menjadi korban pencurian identitas atau data.
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Bonus Deposit Member baru 100%.</li>
+                  <li><i class="ri-check-double-line"></i> Agen Slot Pulsa Terpecaya 2021 dijamin.</li>
+                  <li><i class="ri-check-double-line"></i> Slot Deposit dan Withdraw 24 jam sangat cepat.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-1.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-2">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Kami selalu memberikan pelayanan yang terbaik untuk member kami</h3>
+                <p>
+                Sarana bermain yang bagus customer selalu siap 24 jam. Hal ini membuat kita merasa bingung. Ketika ada permasalahan kita bisa menghubungi customer service yang bekerja selama 24 jam non stop. Bahkan Pelayanan customer service dengan online 24 jam. Anda bisa kontak seperti live chat, Whatsapp, BBM, Line dan lain-lain.
+                </p>
+                <p>
+                  <Strong>Berikut Layanan Kami:</strong>
+                </P>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Slot Deposit Pulsa Pragmatic Play</li>
+                  <li><i class="ri-check-double-line"></i> Slot Deposit Pulsa Spade Gaming</li>
+                  <li><i class="ri-check-double-line"></i> Slot Deposit Pulsa Joker123</li>
+                  <li><i class="ri-check-double-line"></i> Slot Deposit Pulsa PlayTech</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-2.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-3">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Selalu ada bonus setiap hari bagi member setia kami</h3>
+                <p>
+                  Setiap agen slot deposit pulsa pasti mempunyai dan memberikan bonus Promosi Slot Online yang berbeda. Tentu hal ini mempunyai tujuan untuk memberi peluang atau memilih setiap peserta di tiap anggotanya. Bonus itu bisa di peroleh dalam waktu periode yang di tentukan. Berikut bonus yang biasanya adalah bonus untuk anggota baru, bonus deposit, Komisi rollingan dan bonus referal, yang dapat anda peroleh dengan mudah.
+                </p>
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Bonus Langsung masuk.</li>
+                  <li><i class="ri-check-double-line"></i> Tanpa Potongan administrasi.</li>
+                  <li><i class="ri-check-double-line"></i> Memiliki Layanan Slot Deposit Pulsa terbaik.</li>
+                </ul>
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-3.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+          <div class="tab-pane" id="tab-4">
+            <div class="row">
+              <div class="col-lg-6 order-2 order-lg-1 mt-3 mt-lg-0">
+                <h3>Mudah dalam bertransaksi adalah fasilitas yang kami tawarkan untuk anda</h3>
+                <p>
+                  Untuk deposit yang cepat dan aman. Anda dapar transfer melalui E-wallet atau transaksi lewat pulsa telkomsel dan XL yang selalu online 24 jam. Hal ini sangat di gemari oleh pemain karna mudah hanya dengan santai dapat mengerjakan pengiriman deposit dengan mudah.
+                </p>
+
+                <ul>
+                  <li><i class="ri-check-double-line"></i> Deposit Melalui Telkomsel dan XL.</li>
+                  <li><i class="ri-check-double-line"></i> Deposit Melalui OVO, DANA, dan GOPAY.</li>
+                  <li><i class="ri-check-double-line"></i> Deposit Melalui Bank BCA, Mandiri dan BRI.</li>
+                </ul>
+
+              </div>
+              <div class="col-lg-6 order-1 order-lg-2 text-center">
+                <img src="assets/img/features-4.png" alt="" class="img-fluid">
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Features Section -->
+
+    <!-- ======= Cta Section ======= -->
+    <section id="cta" class="cta">
+      <div class="container">
+
+        <div class="row" data-aos="zoom-out">
+          <div class="col-lg-9 text-center text-lg-left">
+            <h3>Call To Action</h3>
+            <p> Buruan menjadi member kami dengan berbagai bonus dan manfaat lebih banyak di banding agen slot deposit pulsa yang lain.</p>
+          </div>
+          <div class="col-lg-3 cta-btn-container text-center">
+            <a class="cta-btn align-middle" href="https://api.whatsapp.com/send?phone=6282122214787">Call To Action</a>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Cta Section -->
+
+    <!-- ======= Services Section ======= -->
+    <section id="services" class="services">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Services</h2>
+          <p>What we do offer</p>
+        </div>
+
+        <div class="row">
+          <div class="col-lg-4 col-md-6">
+            <div class="icon-box" data-aos="zoom-in-left">
+              <div class="icon"><i class="las la-basketball-ball" style="color: #ff689b;"></i></div>
+              <h4 class="title">24 Jam nonstop</a></h4>
+              <p class="description">Kami menyediakan layanan 24 jam nonstop kapanpun bapat di akses dengan mudah</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5 mt-md-0">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="100">
+              <div class="icon"><i class="las la-book" style="color: #e9bf06;"></i></div>
+              <h4 class="title">Slot Pulsa Terlengkap</a></h4>
+              <p class="description">Tidak perlu di ragukan lagi slot deposit pulsa terlengkap</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-5 mt-lg-0 ">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="200">
+              <div class="icon"><i class="las la-file-alt" style="color: #3fcdc7;"></i></div>
+              <h4 class="title">Tanpa Potongan</a></h4>
+              <p class="description">Tidak ada biaya administrasi atau slot pulsa tanpa potongan</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="300">
+              <div class="icon"><i class="las la-tachometer-alt" style="color:#41cf2e;"></i></div>
+              <h4 class="title">Bonus Harian Menarik</a></h4>
+              <p class="description">Banyak bonus untuk member baru dan member setia kami</p>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="400">
+              <div class="icon"><i class="las la-globe-americas" style="color: #d6ff22;"></i></div>
+              <h4 class="title">Slot Pulsa Terpecaya 100% dijamin</a></h4>
+              <p class="description">Kami memiliki sertifikat resmi dan dapat dipercaya untuk menangani pulsa anda</p>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6 mt-5">
+            <div class="icon-box" data-aos="zoom-in-left" data-aos-delay="500">
+              <div class="icon"><i class="las la-clock" style="color: #4680ff;"></i></div>
+              <h4 class="title">Keamanan Anda Terjamin</a></h4>
+              <p class="description">Keamanan anda terjamin di situs slot pulsa online terbaru memiliki tingkat keamanan yang ketat. Identitas member kami enkripsi.</p>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section><!-- End Services Section -->
+
+    <!-- ======= Portfolio Section ======= -->
+    <section id="portfolio" class="portfolio">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Portfolio</h2>
+          <p>What we've done</p>
+        </div>
+        <div class="card-columns">
+
+            <div id="test"></div>
+
+        </div>
+
+      </div>
+    </section><!-- End Portfolio Section -->
+
+    <!-- ======= Testimonials Section ======= -->
+    <section id="testimonials" class="testimonials">
+      <div class="container">
+
+        <div class="section-title" data-aos="zoom-out">
+          <h2>Testimonials</h2>
+          <p>What they are saying about us</p>
+        </div>
+
+        <div class="owl-carousel testimonials-carousel" data-aos="fade-up">
+
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Deposit cepat dan lengkap slot deposit pulsa.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="slot deposit pulsa">
+            <h3>Blackboy</h3>
+            <h4>Ceo &amp; Rumah Keong</h4>
+          </div>
+
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Pulsa tanpa potongan administrasi dan respon customer service cepat
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="review slot deposit pulsa">
+            <h3>Saras 008</h3>
+            <h4>Designer</h4>
+          </div>
+
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+               Ga perlu ragu bertransaksi disini karena memiliki sertifikat resmi dijamin amanah gan.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="review slot deposit pulsa">
+            <h3>Eyang Gasubur</h3>
+            <h4>OJOL</h4>
+          </div>
+
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Dapat Deposit via digital dengan OVO , GOPAY dan DANA sangat mudah
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="review slot deposit pulsa">
+            <h3>Matt Brandon</h3>
+            <h4>Freelancer</h4>
+          </div>
+
+          <div class="testimonial-item">
+            <p>
+              <i class="bx bxs-quote-alt-left quote-icon-left"></i>
+              Banyak banget bonus nya boss tiap hari ada bonus terus ga bosen bosen deh.
+              <i class="bx bxs-quote-alt-right quote-icon-right"></i>
+            </p>
+            <img src="assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="review slot deposit pulsa">
+            <h3>John Doe</h3>
+            <h4>Entrepreneur</h4>
+          </div>
+
+        </div>
+
+      </div>
+    </section><!-- End Testimonials Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container">
+      <h3>Slot Deposit Pulsa</h3>
+      <p>Slot Deposit Pulsa Terpercaya Tanpa Potongan Telkomsel dan XL dengan Permainan Slot Terlengkap.</p>
+      <!-- <div class="social-links">
+        <a href="#" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="#" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="#" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="#" class="google-plus"><i class="bx bxl-skype"></i></a>
+        <a href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div> -->
+      <div class="copyright">
+        &copy; Copyright <strong><span>Indo787</span></strong>. All Rights Reserved
+      </div>
+    </div>
+  </footer><!-- End Footer -->
+
+  <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
