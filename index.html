@@ -68,12 +68,12 @@
                               a++;
                           }
                           var judul = str.replace('.html','');
-                          var judul2 = judul.replace('-',' ');
+
                           document.getElementById("test").innerHTML +=
                             '<div class="card">'
                               +'<img class="card-img-top" src="assets/img/portfolio/portfolio-'+(Math.floor(Math.random() * 9) + 1)+'.jpg" alt="Slot Deposit Pulsa">'
                               +'<div class="card-body">'
-                                +'<a href=pages/'+str+'><h5 class="card-title">'+judul2+'</h5></a>'
+                                +'<a href=pages/'+str+'><h5 class="card-title">'+judul+'</h5></a>'
                               +'</div>'
                             +'</div>';
                       }
